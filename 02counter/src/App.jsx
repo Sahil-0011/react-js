@@ -10,7 +10,7 @@ function App() {
 
   const addValue = () => {
 
-    setCounter(counter - 1)
+    setCounter(counter + 1)
 
     // setCounter((prevCounter) => prevCounter + 1) bcz the upper func cant give right value due to batching of results
     // setCounter((prevCounter) => prevCounter + 1)
