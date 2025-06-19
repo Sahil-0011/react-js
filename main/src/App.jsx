@@ -2,15 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import MainPassword from './05passwordGenerator/mainPassword'
+//import MainPassword from './05passwordGenerator/mainPassword'
+import Maincurrency from './06currencyconverter/Maincurrency'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <MainPassword/>
-    
+    {/* //<MainPassword/> */}
+    <Maincurrency/>
       
     </>
   )
